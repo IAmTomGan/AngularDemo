@@ -1,0 +1,9 @@
+<p>form-control-demo works!</p>
+<label>
+    Name:
+    <input [formControl]="name" type="text" >
+    <button (click)="SetAge()">Set Age</button>
+</label>
+<p>
+    Value:{{name.value}}
+</p>

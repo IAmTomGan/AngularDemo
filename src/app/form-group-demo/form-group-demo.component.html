@@ -1,0 +1,15 @@
+<p>form-group-demo works!</p>
+<!-- 3. Bingding the FormGroup -->
+<form [formGroup]="loginForm">
+    <label>
+        Account:
+        <input type="Text" formControlName="username">
+    </label>
+    <p></p>
+    <label>
+        Password:
+        <input type="text" formControlName="password">
+    </label>
+    <p></p>
+    <button (click)="Submit()">Submit</button>
+</form>
