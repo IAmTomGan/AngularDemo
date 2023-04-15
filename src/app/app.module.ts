@@ -9,6 +9,9 @@ import { FormGroupDemoComponent } from './form-group-demo/form-group-demo.compon
 import { HelloComponent } from './hello/hello.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormControlDemoComponent } from './form-control-demo/form-control-demo.component';
+import { RouteDemoComponent } from './route-demo/route-demo.component';
+import { ErrorDefaultPageComponent } from './error-default-page/error-default-page.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { FormControlDemoComponent } from './form-control-demo/form-control-demo.
     TwoWayBindingComponent,
     FormControlDemoComponent,
     FormGroupDemoComponent,
+    RouteDemoComponent,
+    ErrorDefaultPageComponent,
+    HomeComponent,
   ],
 
   imports: [

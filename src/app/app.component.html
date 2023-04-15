@@ -1,8 +1,20 @@
+
 <span>{{ title }} app is running!</span>
+<br>
+
+<!-- 
 <app-hello></app-hello>
 <br>
 <app-two-way-binding></app-two-way-binding>
 <br>
 <app-form-control-demo></app-form-control-demo>
 <br>
-<app-form-group-demo></app-form-group-demo>
+<app-form-group-demo></app-form-group-demo> 
+<app-route-demo></app-route-demo>
+-->
+<p>route-demo works!</p>
+<a [routerLink]="['/home']" >Home</a>|
+<a [routerLink]="['/hello']" >Hello</a>|
+<a [routerLink]="['/twowaybinding']" >TwowayBinding</a>
+<!-- The area to show the result -->
+<router-outlet></router-outlet> 
