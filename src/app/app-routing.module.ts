@@ -13,7 +13,7 @@ const routes: Routes =
   {path:'home', component:HomeComponent,
     children:[
       {path:'formgroup', component:FormGroupDemoComponent},  //Sub Route
-      {path:'formcontrol', component:FormControlDemoComponent}
+      {path:'formcontrol', component:FormControlDemoComponent},
     ]
   },
   {path:'hello', component:HelloComponent},
