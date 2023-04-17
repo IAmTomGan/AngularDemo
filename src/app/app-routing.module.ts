@@ -9,7 +9,7 @@ import { FormControlDemoComponent } from './form-control-demo/form-control-demo.
 //Configure Route
 const routes: Routes = 
 [
-  {path:'', component:HomeComponent},               //Default page modify By DanielGan2023 
+  {path:'', component:HomeComponent},               //Default page modify
   {path:'home', component:HomeComponent,
     children:[
       {path:'formgroup', component:FormGroupDemoComponent},  //Sub Route
