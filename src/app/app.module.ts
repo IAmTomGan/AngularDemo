@@ -14,6 +14,7 @@ import { ErrorDefaultPageComponent } from './error-default-page/error-default-pa
 import { HomeComponent } from './home/home.component';
 import { DataTransferDemoComponent } from './data-transfer-demo/data-transfer-demo.component';
 import { DataTransferSubDemoComponent } from './data-transfer-sub-demo/data-transfer-sub-demo.component';
+import { InjectableDemoComponent } from './injectable-demo/injectable-demo.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { DataTransferSubDemoComponent } from './data-transfer-sub-demo/data-tran
     HomeComponent,
     DataTransferDemoComponent,
     DataTransferSubDemoComponent,
+    InjectableDemoComponent,
   ],
 
   imports: [
