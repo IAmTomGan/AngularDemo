@@ -1,0 +1,13 @@
+<p>data-transfer-demo works!</p>
+<p>The below data is show in sub Component:</p>
+<!--Step 1.1: @Input  Parent->Child: add [title]="title"-->
+<!--Step 2.1: @Output Child->Parent use EventEmitter() -->
+<!--Step 3.1: @ViewChild -->
+<app-data-transfer-sub-demo #subCom [title]="title" (addListEmit)="addListFun($event)"></app-data-transfer-sub-demo>
+<p *ngFor="let item of list">{{item}}</p>
+
+
+<button (click)="InvoidSubComMethod()">@ViewChild Invoke Sub Component </button>
+
+
+

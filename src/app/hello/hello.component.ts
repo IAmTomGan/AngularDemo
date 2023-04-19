@@ -7,6 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HelloComponent
 {
+  constructor(){} 
+  //When Data Change
+  ngOnChanges()
+  {
+    console.log("ngOnChanges()");
+  }
+
+  //Invoke Only one time
+  ngOnInit()
+  {
+
+  }
+
   onSave()
   {
     console.log("Save Click!");
