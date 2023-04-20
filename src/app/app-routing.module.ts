@@ -10,7 +10,7 @@ import { DataTransferDemoComponent } from './data-transfer-demo/data-transfer-de
 //Configure Route
 const routes: Routes = 
 [
-  {path:'', component:HomeComponent},               //Default page
+  {path:'', component:HomeComponent},               //Default page modify in branch of feature
   {path:'home', component:HomeComponent,
     children:[
       {path:'formgroup', component:FormGroupDemoComponent},  //Sub Route
