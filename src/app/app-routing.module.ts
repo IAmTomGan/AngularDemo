@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { FormGroupDemoComponent } from './form-group-demo/form-group-demo.component';
 import { FormControlDemoComponent } from './form-control-demo/form-control-demo.component';
 import { DataTransferDemoComponent } from './data-transfer-demo/data-transfer-demo.component';
+import { InjectAbleDemoComponent } from './inject-able-demo/inject-able-demo.component';
 //Configure Route
 const routes: Routes = 
 [
@@ -15,6 +16,7 @@ const routes: Routes =
     children:[
       {path:'formgroup', component:FormGroupDemoComponent},  //Sub Route
       {path:'formcontrol', component:FormControlDemoComponent},
+      {path:'injectable', component:InjectAbleDemoComponent},
     ]
   },
   {path:'hello', component:HelloComponent},
