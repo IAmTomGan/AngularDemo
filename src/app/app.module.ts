@@ -14,7 +14,6 @@ import { ErrorDefaultPageComponent } from './error-default-page/error-default-pa
 import { HomeComponent } from './home/home.component';
 import { DataTransferDemoComponent } from './data-transfer-demo/data-transfer-demo.component';
 import { DataTransferSubDemoComponent } from './data-transfer-sub-demo/data-transfer-sub-demo.component';
-import { InjectableDemoComponent } from './injectable-demo/injectable-demo.component';
 import { TempTaskDemoComponent } from './temp-task-demo/temp-task-demo.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { TempTaskDemoComponent } from './temp-task-demo/temp-task-demo.component
     HomeComponent,
     DataTransferDemoComponent,
     DataTransferSubDemoComponent,
-    InjectableDemoComponent,
     TempTaskDemoComponent,
   ],
 
