@@ -16,7 +16,8 @@ import { DataTransferSubDemoComponent } from './data-transfer-sub-demo/data-tran
 import { TempTaskDemoComponent } from './temp-task-demo/temp-task-demo.component';
 import { ListService } from './servises/list.service';
 //DemoInjectable step 2
-import { InjectAbleDemoComponent } from './inject-able-demo/inject-able-demo.component'; 
+import { InjectAbleDemoComponent } from './inject-able-demo/inject-able-demo.component';
+import { RollbackDemoComponent } from './rollback-demo/rollback-demo.component'; 
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { InjectAbleDemoComponent } from './inject-able-demo/inject-able-demo.com
     DataTransferSubDemoComponent,
     TempTaskDemoComponent,
     InjectAbleDemoComponent,
+    RollbackDemoComponent,
   ],
 
   imports: [
