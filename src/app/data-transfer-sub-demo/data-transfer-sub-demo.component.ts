@@ -7,7 +7,7 @@ import { Component,Input,Output,EventEmitter } from '@angular/core';
   styleUrls: ['./data-transfer-sub-demo.component.scss']
 })
 export class DataTransferSubDemoComponent {
-//Step 1.3:Parent->Child: The role of @Input is to define the module input,
+//Step 1.3:Parent->Child: The role of @Input is to define the module input, abc
 // which is used to let the parent component pass content to the child component
 @Input() title?:string
 
