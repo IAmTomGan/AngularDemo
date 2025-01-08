@@ -6,7 +6,7 @@ import { Component, ViewChild } from '@angular/core';
   styleUrls: ['./data-transfer-demo.component.scss']
 })
 export class DataTransferDemoComponent {
-  //Step1.2:Parent->Child
+  //Step1.2:Parent->Child ?
   title: string = 'Data From DataTransferComponet';
   list:Array<number>=[1,2,3];
 
